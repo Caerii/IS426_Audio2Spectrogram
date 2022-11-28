@@ -25,3 +25,12 @@ This means in each class folder, you'll have a large amount of folders correspon
 of examples that exist for that particular class.
 
 This repository will process AudioMNIST, a dataset composed of spoken data of the digits 0-9.
+
+A coopy of this file structure will be used then to generate the spectrograms of each of the chunks.
+The chunks will then become MEL Power Law Spectrograms.
+
+These chunks, that are then labeled by their folder, can be used to train a machine learning classification model
+that utilizes CNN's (Convolutional Neural Networks).
+
+Presto, we have done dimensionality reduction on audio files into an image format which features can be extracted from and learned
+utilizing the advancements in computer vision, without any specialized domain knowledge!
