@@ -24,9 +24,9 @@ each audio clip will spawn one folder that has all of the clips of the chunks in
 This means in each class folder, you'll have a large amount of folders corresponding to the amount
 of examples that exist for that particular class.
 
-This repository will process AudioMNIST, a dataset composed of spoken data of the digits 0-9.
+This repository will process a test audio file which is Steve Lacy's song "Bad Habits".
 
-A coopy of this file structure will be used then to generate the spectrograms of each of the chunks.
+A copy of this file structure will be used then to generate the spectrograms of each of the chunks.
 The chunks will then become MEL Power Law Spectrograms.
 
 These chunks, that are then labeled by their folder, can be used to train a machine learning classification model
