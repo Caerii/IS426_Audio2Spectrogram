@@ -2,10 +2,10 @@
 Processes audio into usable spectrograms for classification
 
 # There are several processing steps
-The program should ask for which *classes of data* you are going to be processing. 
+The program should ask for which *classes of data* you are going to be processing. At the moment, it only processes one large audio clip, but later versions will process all the files within a directory.
 
 This will create empty folders, and the program
-will ask you to select the files on your computer which correspond to that class.
+will ask you to select the files on your computer which correspond to that class. (Currently only one class at a time, multiclass processing in next version).
 
 These files will be cloned into a folder in the root directory of the program in "./data"
 
